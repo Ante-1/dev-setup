@@ -45,7 +45,7 @@ killall Finder;
 - install homebrew
 - add `export EDITOR="code"` and `export PATH="/opt/homebrew/bin:$PATH"` to .zshrc
 
-```
+```bash
 
 # GUI programs
 brew install --cask \
@@ -64,7 +64,7 @@ brew install --cask \
 # Terminal programs
 
 # matrix style terminal
-brew install cmatrix screen saver
+brew install cmatrix
 
 # setup terminal promt
 brew install starship
@@ -112,6 +112,9 @@ brew install bottom
 
 # update everything
 brew install topgrade
+
+# better shell history (CTRL-R)
+# atuin install script
 
 # less used stuff
 brew install macchina # display some basic system info
