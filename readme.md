@@ -3,6 +3,7 @@
 ## What I did
 
 In spired in part by https://www.robinwieruch.de/mac-setup-web-development/
+and https://dev.to/deepu105/rust-easy-modern-cross-platform-command-line-tools-to-supercharge-your-terminal-4dd3
 
 ### System Settings
 
@@ -122,4 +123,5 @@ brew install tokei # count lines of code
 brew install tealdeer # tldr in rust (simplified man pages)
 brew install httpie # easier curl
 brew install jq # powerfull json tool
+brew install eva # calculator
 ```
