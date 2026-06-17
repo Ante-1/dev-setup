@@ -13,7 +13,7 @@ and https://dev.to/deepu105/rust-easy-modern-cross-platform-command-line-tools-t
 - disable Siri
 - Keyboard Shortcuts -> Spotlight -> CMD + Space disable
   - We will be using Raycast instead
-- Turn on FileVault
+- (Turn on FileVault)
 
 ### Finder Settings
 
@@ -43,6 +43,7 @@ killall Finder;
 
 ### Install Software
 
+- Scroll Reverser (for correct Scrollwheel)
 - install homebrew
 - add `export EDITOR="code"` and `export PATH="/opt/homebrew/bin:$PATH"` to .zshrc
 
@@ -57,7 +58,7 @@ brew install --cask \
   visual-studio-code \
   docker \
   rectangle \ # window manager
-  unnaturalscrollwheels \ # normal scrolling mouse wheel and touch pad
+  # unnaturalscrollwheels \ # normal scrolling mouse wheel and touch pad (replaced by Scroll Reverser)
   alacritty \ # Terminal Emulator
 
 # setup `.config/alacritty/alacritty.toml`
